@@ -1,0 +1,39 @@
+//Program without for loop
+//import java.util.*;
+//import java.math.*;
+// public class Power {
+    //public static void main(String args[])
+    //{
+      //  Scanner sc=new Scanner(System.in);
+//System.out.print("Enter number");
+        //int number=sc.nextInt();
+//System.out.print("Enter power");
+        //int power=sc.nextInt();
+        //int result=0;
+        //result=(int)Math.pow(number,power);
+        //System.out.println(result);
+    //}
+//}
+
+//Program with for loop
+import java.util.*;
+public class Power {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number");
+        int number = sc.nextInt();
+        System.out.print("Enter power");
+        int power = sc.nextInt();
+        int result = 1;
+        for (int loopOnPower = 0; loopOnPower <power; loopOnPower++) {
+            result = (result * number);
+        }
+        System.out.println("Output of number to the power is "+result);
+    }
+}
+
+
+
+
+
+
